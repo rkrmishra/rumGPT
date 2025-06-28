@@ -6,8 +6,9 @@ from langfuse.decorators import observe, langfuse_context
 from datetime import datetime
 
 
-os.environ["LANGFUSE_PUBLIC_KEY"] = ""
-os.environ["LANGFUSE_SECRET_KEY"] = ""
+os.environ["LANGFUSE_PUBLIC_KEY"] = "pk-lf-373e290a-2117-45d6-a252-1401b463687e"
+os.environ["LANGFUSE_SECRET_KEY"] = "sk-lf-8ebeb8e0-3ce6-42c0-93d3-8c2b829388bc"
+
 os.environ["LANGFUSE_HOST"] = "http://localhost:3000/"
 os.environ["LANGFUSE_TRACING_ENVIRONMENT"] = "dev-env"
 
